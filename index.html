@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Creamagia Producciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/tabla3.css" rel="stylesheet" type="text/css" media="all"/>
+
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+
+	</script>
+
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/logo.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+
+		<!-- HEADER -->
+		<header>
+
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<li><img src="images/small.png" alt="" /> <a href="index.html" ><span class="b1">CREAMAGIA</span><span class="b2">PRODUCCIONES</span></a></li>
+					</div><!-- //LOGO -->
+
+
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >INICIO</a></li>
+								<li class="scroll_btn"><a href="#about" >EMPRESA</a></li>
+								<li class="scroll_btn"><a href="#projects" >PRODUCCION</a></li>
+								<li class="scroll_btn"><a href="#team" >PRODUCTOS</a></li>
+								<li class="scroll_btn"><a href="#news" >CLIENTES</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >ContactO</a></li>
+
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+
+
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay2 FromTop">Eventos y Conferencias </p>
+							<p class="title4 captionDelay7 FromBottom"><font color="black"><b>Apoyo integral en grandes eventos</b></font></p>
+						</div>
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Pendones</p>
+							<p class="title4 captionDelay7 FromLeft"><font color="red">Proveemos de pendones en tela PVC de todos los tamaños. </font></p>
+
+						</div>
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Soluciones Creativas</p>
+							<p class="title4 captionDelay5 FromBottom">Si busca una solución creativa a su dilema de publicidad acuda con nosotros.</p>
+						</div>
+
+
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					<li><img src="images/slider/slide1_bg.jpg" alt="" /></li>
+					<li><img src="images/slider/slide2_bg.jpg" alt="" /></li>
+					<li><img src="images/slider/slide3_bg.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section><!-- //HOME -->
+
+
+		<!-- ABOUT -->
+		<section id="about">
+
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+				<!-- CONTAINER -->
+				<div class="container">
+
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Puntuales</b></p>
+								<span>95% de nuestros clientes nos recomiendan por nuestra puntualidad y fiabilidad a la hora de cumplir un plazo</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Postventa</b></p>
+								<span>Ofrecemos un moderno sistema de postventa para que el cliente se sienta acompañado en su instalación o luego de ella. </span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Diseño</b> </p>
+								<span>También contamos con servicio de diseño que permite tener total control sobre la producción.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Innovación</b> </p>
+								<span>Siempre estamos trayendo nuevos productos como tazas, roller, poleras entre otros </span>
+							</a>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+
+			<!-- CLEAN CODE -->
+			<div class="cleancode_block">
+
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<!-- CASTOM TAB -->
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active clearfix" id="tab1">
+							<p class="title"><b>Historia</b> </p>
+							<span>La empresa CREAMAGIA Ltda. nace el año 2005 en la comuna de Santiago Centro atentiendo a la fuerte necesidad del mercado. </span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab2">
+							<p class="title"><b>Empresa</b></p>
+							<span>En estos 12 años de existencia hemos desarrollado multiples trabajos para importantes instituciones públicas y privadas, enorgulleciéndonos principalmente por la conformidad y satisfacción demostrada por nuestros clientes.
+Junto a las más prestigiosas empresas del área de organización de eventos en Chile, nuestra empresa ha sido seleccionada en varias oportunidad, como la cumbre APEC Chile 2004, XVII Cumbre Iberoamericana 2007, CELAC 2012 entre otras para colaborar en la Imagen Corporativa de estas importantes actividades país, apoyando directamente el desarrollo, producción e instalación de diferentes trabajos, durante su realización.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab3">
+							<p class="title"><b>Misión</b></p>
+							<span>Como empresa joven y emprendedora nuestra misión se orienta a entregar en cada trabajo: calidad y rapidez dentro de la amplia gama de trabajos que ofrecemos, utilizando para ello tecnología de punta en lo que refiere a impresión digital y serigráfica, abarcando con nuestra maquinaria todos los formatos imaginables. Desde pequeños letreros hasta monumentales y unipol.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab4">
+							<p class="title"><b>Visión</b></p>
+							<span>Nuestra visión es buena 20/20. Tenemos vista hacia la Calle Carmen y por una ventana hacia Ventura Lavalle</span>
+						</div>
+
+
+					</div>
+					<ul id="myTab" class="nav nav-tabs">
+						<li class="active"><a class="i1" href="#tab1" data-toggle="tab" ><i></i><span>Historia</span></a></li>
+						<li><a class="i2" href="#tab2" data-toggle="tab" ><i></i><span>Empresa </span></a></li>
+						<li><a class="i3" href="#tab3" data-toggle="tab" ><i></i><span>Misión</span></a></li>
+						<li><a class="i4" href="#tab4" data-toggle="tab" ><i></i><span>Visión</span></a></li>
+
+					</ul><!-- CASTOM TAB -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //CLEAN CODE -->
+
+			<!-- MULTI PURPOSE -->
+			<section id="projects" class="padbot20">
+
+			<div class="purpose_block">
+
+
+				<!-- CONTAINER -->
+				<div class="container">
+
+					<!-- ROW -->
+					<div class="row">
+
+						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
+							<h2><b>Instalaciones</b> </h2>
+							<p>Pero eso no es todo, en CREAMAGIA contamos con un equipo especializacido para asumir y desarrollar todo tipo de proyectos que se nos encomiende, aportando a nuestros clientes no sólo una visión creativa a sus necesidaes sino un servicio integral de instalación, a la hora del montaje de las soluciones acordadas con atención las 24 horas y donde éste sea requerido. </p>
+							<p>Todas las instalaciones y montajes son producidas y supervisadas por sus dueños.</p>
+							<a class="btn btn-active" href="mailto:ventas@creamagiaproducciones.cl" ><span data-hover="Un mail ">Envianos</span></a>
+							<a class="btn" href="javascript:void(0);" >Llamanos al 229960524</a>
+
+						</div>
+
+						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
+							<img class="ipad_img1" src="images/img1.png" alt="" />
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //MULTI PURPOSE -->
+		</section><!-- //ABOUT -->
+
+
+		<!-- PROJECTS -->
+
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>Producción</b></h2>
+				<p>En el área de producción de muebles y elementos POP, nuestra experuencia combina la fabricación de exhibidores, góndolas y corpóreos</p>
+				<p>como también, la construcción de stands y podium, utilizando distintas materialidades como madera, acrilico, cristales y acero inoxidable.</p>
+
+			</div><!-- //CONTAINER -->
+
+
+			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+				<!-- PROJECTS SLIDER -->
+				<div class="owl-demo owl-carousel projects_slider">
+
+					<!-- work1 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/1.jpg" alt="" />
+								<a class="zoom" href="images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Trabajos pasados</a>
+									<span>17 March, 2041</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work1 -->
+
+					<!-- work2 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/2.jpg" alt="" />
+								<a class="zoom" href="images/works/2.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Trabajos Pasados</a>
+									<span>17 March, 2041</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work2 -->
+
+					<!-- work3 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/3.jpg" alt="" />
+								<a class="zoom" href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Trabajos Pasados</a>
+									<span>17 March, 2041</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work3 -->
+
+					<!-- work4 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/4.jpg" alt="" />
+								<a class="zoom" href="images/works/4.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Trabajos Pasados</a>
+									<span>17 March, 2041</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work4 -->
+
+					<!-- work5 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/5.jpg" alt="" />
+								<a class="zoom" href="images/works/5.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Trabajos Pasados</a>
+									<span>17 March, 2041</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work5 -->
+
+					<!-- work6 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/6.jpg" alt="" />
+								<a class="zoom" href="images/works/6.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Trabajos Pasados</a>
+									<span>17 March, 2041</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work6 -->
+
+					<!-- work7 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/7.jpg" alt="" />
+								<a class="zoom" href="images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Trabajos Pasados</a>
+									<span>17 March, 2041</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work7 -->
+				</div><!-- //PROJECTS SLIDER -->
+			</div>
+
+
+			<!-- OUR CLIENTS -->
+			<div class="our_clients">
+
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/1.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/2.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/3.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/4.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/5.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/6.jpg" alt="" />
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- CONTAINER -->
+			</div><!-- //OUR CLIENTS -->
+		</section><!-- //PROJECTS -->
+
+
+		<!-- TEAM -->
+		<section id="team">
+
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>PRODUCTOS</b></h2>
+
+				<!-- ROW --><!-- CAMBIO200 X 100 -->
+				<div class="row" data-appear-top-offset="-100" data-animated="fadeInUp">
+
+					<!-- TEAM SLIDER -->
+					<div class="owl-demo owl-carousel team_slider">
+
+						<!-- crewman1 372 x 232  -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/1.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><center><font size=6>Cumbre Iberoamericana</font></center></p>
+										<span>2007</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- crewman1 -->
+
+						<!-- crewman2 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/2.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><center><font size=6>Cumbre Iberoamericana</font></center></p>
+										<span>2007</span>
+									</div>
+								</div>
+
+							</div>
+						</div><!-- crewman1 -->
+
+						<!-- crewman3 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/3.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><center><font size=6>Cumbre Iberoamericana</font></center></p>
+										<span>2007</span>
+									</div>
+								</div>
+
+							</div>
+						</div><!-- crewman3 -->
+
+						<!-- crewman4 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/4.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><center><font size=6>Cumbre Iberoamericana</font></center></p>
+										<span>2007</span>
+									</div>
+								</div>
+
+							</div>
+						</div><!-- crewman4 -->
+
+						<!-- crewman5 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/5.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><center><font size=6>Cumbre Iberoamericana</font></center></p>
+										<span>2007</span>
+									</div>
+								</div>
+
+							</div>
+						</div><!-- crewman5 -->
+
+						<!-- crewman6 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/6.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><center><font size=6>LAURUS</font></center></p>
+										<span>2008</span>
+									</div>
+								</div>
+
+							</div>
+						</div><!-- crewman6 -->
+
+						<!-- crewman7 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/7.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><center><font size=6>LAURUS</font></center></p>
+										<span>2008</span>
+									</div>
+								</div>
+
+							</div>
+						</div><!-- crewman7 -->
+
+						<!-- crewman8 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/8.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><center><font size=6>LAURUS</font></center></p>
+										<span>2008</span>
+									</div>
+								</div>
+
+							</div>
+						</div><!-- crewman8 -->
+					</div><!-- TEAM SLIDER -->
+				</div><!-- //ROW -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //TEAM -->
+
+
+		<!-- NEWS -->
+		<section id="news">
+
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>Nuestros clientes</b> dicen sobre nosotros</h2>
+
+				<!-- TESTIMONIALS -->
+				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<!-- TESTIMONIALS SLIDER -->
+					<div class="owl-demo owl-carousel testim_slider">
+
+						<!-- TESTIMONIAL1 -->
+						<div class="item">
+							<div class="testim_content">“Creamagia es una gran empresa, me han ayudado en todos mis montajes, me han dado los consejos correctos en el momento correcto y he podido notar su gran experiencia en el campo. Además, cuentan con una increíble puntualidad que me permite confiar en ellos con cada trabajo”</div>
+							<div class="testim_author">—  Clark Kent, <b>Super Heroe</b></div>
+						</div><!-- TESTIMONIAL1 -->
+
+						<!-- TESTIMONIAL2 -->
+						<div class="item">
+							<div class="testim_content">“Creamagia ha armado los muebles para cada una de mis presentaciones de producto y he podido contar en cada oportunidad con su experiencia, y su apoyo en terreno. Esto, me es muy importante ya que nos han colaborado de Arica a Punta Arenas ”</div>
+							<div class="testim_author">—  Bruce Wayne, <b>Super Heroe </b></div>
+						</div><!-- TESTIMONIAL2 -->
+
+						<!-- TESTIMONIAL3 -->
+						<div class="item">
+							<div class="testim_content">“En el ministerio que trabajo hemos tenido que desarrollar gran cantidad de conferencias y eventos para diferentes jefes de estado y en todas ellas hemos contado con la ayuda indispensable de Creamagia que nos han ayudado con telas, lienzos y otros nuevos productos publicitarios, generando así eventos de primer nivel.”</div>
+							<div class="testim_author">—  Barry Allen, <b>Super Heroe</b></div>
+						</div><!-- TESTIMONIAL3 -->
+					</div><!-- TESTIMONIALS SLIDER -->
+				</div><!-- //TESTIMONIALS -->
+
+				<!-- RECENT POSTS -->
+				<div class="three-columns">
+            <p>
+								<ol>
+									<li><font size=4>CROMAGNON </font></li>
+									<li><font size=4>APEC CHILE 2004</font></li>
+									<li><font size=4>DPI</font></li>
+									<li><font size=4>XVII Cumbres Iberoamericana de Jefes de Estado y Gobierno Chile 2007</font></li>
+									<li><font size=4>CEPAL</font></li>
+									<li><font size=4>Hotel Valdivia</font></li>
+									<li><font size=4>Presidencia de la República</font></li>
+									<li><font size=4><a href="http://www.minrel.gob.cl/" target="_blank">Ministerio de Relaciones Exteriores</a>  </font></li>
+									<li><font size=4><a href="https://portal.sernam.cl/" target="_blank">SERNAM</a>  </font></li>
+									<li><font size=4><a href="http://www.indap.gob.cl/" target="_blank">INDAP</a>  </font></li>
+									<li><font size=4><a href="http://www.vinadelmarchile.cl/" target="_blank">Municipalidad de Viña del Mar</a>  </font></li>
+									<li><font size=4><a href="http://www.gc911.cl/" target="_blank">Grupo Creativo 911</a></font></li>
+									<li><font size=4><a href="http://www.udla.cl" target="_blank">Universidad de las Américas</a>  </font></li>
+									<li><font size=4><a href="http://www.finisterrae.cl/" target="_blank">Universidad Finis Terrae</a> </font></li>
+
+									<li><font size=4>Vapor Industrial S.A.</font></li>
+									<li><font size=4>Foro Unión Europea - América Latina y Caribe </font></li>
+									<li><font size=4>Municipalidad de Quilpue</font></li>
+									<li><font size=4>Municipalidad de San Vicente de Tagua Tagua </font></li>
+									<li><font size=4>Cola Cola Export </font></li>
+									<li><font size=4>Omni Nuts & Fruts S.A. </font></li>
+									<li><font size=4>Inmobiliaria Paseo Estacuón </font></li>
+									<li><font size=4>Watt's</font></li>
+									<li><font size=4>Intcomex S.A.</font></li>
+									<li><font size=4>Centro Cultural Palacio La Moneda </font></li>
+									<li><font size=4>Felco</font></li>
+									<li><font size=4>Congresopro S.A.</font></li>
+									<li><font size=4>Hotel Kennedy</font></li>
+									<li><font size=4>CONACE</font></li>
+									<li><font size=4>Ferrocentro </font></li>
+									<li><font size=4>Megavisión </font></li>
+									<li><font size=4>Centro de Estudios Cientificos - Valdivia </font></li>
+									<li><font size=4>Irenesa </font></li>
+									<li><font size=4>CODELCO</font></li>
+									<li><font size=4>Fundación Chilena del Pacífico</font></li>
+									<li><font size=4>Leonardo Zamora Producciones </font></li>
+									<li><font size=4>Agencia Euro RSCS</font></li>
+									<li><font size=4>Frutos del Maipo</font></li>
+								</ol>
+            </p>
+
+        </div>
+<!-- Hasta aqui -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //NEWS -->
+	</div><!-- //PAGE -->
+
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+
+	<!-- FOOTER -->
+	<footer>
+
+		<!-- CONTAINER -->
+		<div class="container">
+
+			<!-- ROW -->
+			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.6293620357906!2d-70.64146588511721!3d-33.45896160533459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c56ea1b89253%3A0x9942365e14cb0437!2sCarmen+1195%2C+Santiago%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1498617725527" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+					<h4><b>Dónde estamos?</b> </h4>
+					<p><font size=4>CREAMAGIA LTDA </font></p>
+					<p><font size=3>E-mail <a  href="mailto:ventas@creamagiaproducciones.cl">ventas@creamagiaproducciones.cl</a></font></p>
+					<p><font size=3>Telefonos: 229960523 - 229960524</font></p>
+					<p><font size=3>Dirección: Carmen 1195 - Santiago</font></p>
+
+
+
+				</div>
+
+				<div class="respond_clear"></div>
+
+				<!-- //Aqui estaba el contact us -->
+
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+
+
+
+</div>
+</body>
+</html>
